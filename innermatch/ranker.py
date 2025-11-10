@@ -171,6 +171,10 @@ class FeedbackRanker:
         Raises:
             Exception: If vector dimensions don't match
         """
+        # Handle empty arrays
+        if len(target_vector_array) == 0 or len(query_vector_array) == 0:
+            return
+        
         if len(query_vector_array[0]) != len(target_vector_array[0]):
             raise Exception("Error: Vector sizes do not match.")
         

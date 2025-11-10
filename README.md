@@ -4,6 +4,8 @@
 
 **A feedback-based ranking algorithm for adaptive information retrieval**
 
+[![Tests](https://github.com/iBM88/FBrank/actions/workflows/test.yml/badge.svg)](https://github.com/iBM88/FBrank/actions/workflows/test.yml)
+[![Lint](https://github.com/iBM88/FBrank/actions/workflows/lint.yml/badge.svg)](https://github.com/iBM88/FBrank/actions/workflows/lint.yml)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-Custom-orange)](LICENSE.txt)
 [![GitHub Stars](https://img.shields.io/github/stars/iBM88/FBrank?style=social)](https://github.com/iBM88/FBrank)
