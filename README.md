@@ -32,14 +32,6 @@ InnerMatch is a machine learning library that implements a feedback-based rankin
 - 📦 **Dual API** - Both object-oriented and functional interfaces
 - ⚡ **Lightweight** - Minimal dependencies (only NumPy required)
 
-### Performance
-
-Tested on the [Wikipedia 2023-11 Retrieval Dataset](https://huggingface.co/datasets/ellamind/wikipedia-2023-11-retrieval-multilingual-qrels):
-
-| Metric | Baseline | With InnerMatch | Improvement |
-|--------|----------|-----------------|-------------|
-| MRR    | 0.3      | 0.4             | **+33%**    |
-
 ---
 
 ## Installation
