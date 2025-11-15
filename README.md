@@ -4,11 +4,11 @@
 
 **A feedback-based ranking algorithm for adaptive information retrieval**
 
-[![Tests](https://github.com/iBM88/FBrank/actions/workflows/test.yml/badge.svg)](https://github.com/iBM88/FBrank/actions/workflows/test.yml)
-[![Lint](https://github.com/iBM88/FBrank/actions/workflows/lint.yml/badge.svg)](https://github.com/iBM88/FBrank/actions/workflows/lint.yml)
+[![Tests](https://github.com/Synaptosearch/InnerMatch/actions/workflows/test.yml/badge.svg)](https://github.com/Synaptosearch/InnerMatch/actions/workflows/test.yml)
+[![Lint](https://github.com/Synaptosearch/InnerMatch/actions/workflows/lint.yml/badge.svg)](https://github.com/Synaptosearch/InnerMatch/actions/workflows/lint.yml)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-Custom-orange)](LICENSE.txt)
-[![GitHub Stars](https://img.shields.io/github/stars/iBM88/FBrank?style=social)](https://github.com/iBM88/FBrank)
+[![GitHub Stars](https://img.shields.io/github/stars/iBM88/FBrank?style=social)](https://github.com/Synaptosearch/InnerMatch)
 
 [Features](#features) •
 [Installation](#installation) •
@@ -47,7 +47,7 @@ pip install innermatch
 ### Install from Source
 
 ```bash
-git clone https://github.com/iBM88/FBrank.git
+git clone https://github.com/Synaptosearch/InnerMatch.git
 cd FBrank
 pip install -e .
 ```
@@ -105,7 +105,7 @@ labels = np.random.randint(0, 2, 100)
 ranks = rank("user123", "password", "session1", documents, query)
 
 # Provide feedback
-feedback("user123", "password", "session1", 
+feedback("user123", "password", "session1",
          documents, np.tile(query, (len(documents), 1)), labels)
 
 # Re-rank with improved model
@@ -138,7 +138,7 @@ FeedbackRanker(user_id, password, session_id, model_location="models/", dimensio
 **Parameters:**
 
 - `user_id` (str): User identifier
-- `password` (str): Authentication password  
+- `password` (str): Authentication password
 - `session_id` (str): Session identifier for model management
 - `model_location` (str, optional): Directory for model storage (default: "models/")
 - `dimension` (int, optional): Vector dimension
@@ -185,7 +185,7 @@ If you use InnerMatch in your research, please cite:
   title = {InnerMatch: Feedback-based Ranking Algorithm},
   year = {2024},
   publisher = {Synaptosearch},
-  url = {https://github.com/iBM88/FBrank}
+  url = {https://github.com/Synaptosearch/InnerMatch}
 }
 ```
 
@@ -195,7 +195,7 @@ If you use InnerMatch in your research, please cite:
 
 **Author**: Behrang Mehrparvar - Synaptosearch  
 **Email**: <synaptosearch@gmail.com>  
-**Issues**: [GitHub Issues](https://github.com/iBM88/FBrank/issues)
+**Issues**: [GitHub Issues](https://github.com/Synaptosearch/InnerMatch/issues)
 
 ---
 

@@ -40,9 +40,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/iBM88/FBrank"
-Repository = "https://github.com/iBM88/FBrank"
-Issues = "https://github.com/iBM88/FBrank/issues"
+Homepage = "https://github.com/Synaptosearch/InnerMatch"
+Repository = "https://github.com/Synaptosearch/InnerMatch"
+Issues = "https://github.com/Synaptosearch/InnerMatch/issues"
 
 [tool.setuptools.packages.find]
 include = ["innermatch*"]
